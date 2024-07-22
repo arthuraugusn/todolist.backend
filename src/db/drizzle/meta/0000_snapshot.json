@@ -1,5 +1,5 @@
 {
-  "id": "1321f061-ed62-492f-a613-647f1d7cbf7e",
+  "id": "4877c58f-5d8c-4217-8321-1deda19e031d",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -14,12 +14,6 @@
           "primaryKey": true,
           "notNull": true,
           "default": "gen_random_uuid()"
-        },
-        "title": {
-          "name": "title",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": true
         },
         "todo": {
           "name": "todo",
