@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { TodoService } from '../services/todo.service';
-import { SelectTodo } from '../schema';
+import { SelectTodo } from '../db/schema';
 
 @Controller('/todo')
 export class TodoController {

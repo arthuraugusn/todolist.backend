@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { TodoController } from './db/controllers/todo.controller';
-import { TodoService } from './db/services/todo.service';
+import { TodoController } from './controllers/todo.controller';
+import { TodoService } from './services/todo.service';
 
 @Module({
   imports: [],
